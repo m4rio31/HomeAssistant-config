@@ -1,0 +1,9 @@
+platform: group
+name: cucina
+entities:
+  - light.cucina_1_1
+  - light.cucina_1_2
+  - light.cucina_1_3
+  - light.cucina_2_1
+  - light.cucina_2_2
+  - light.cucina_2_3

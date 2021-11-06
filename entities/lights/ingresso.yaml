@@ -1,0 +1,5 @@
+platform: group
+name: ingresso
+entities:
+  - light.ingresso_a
+  - light.ingresso_b

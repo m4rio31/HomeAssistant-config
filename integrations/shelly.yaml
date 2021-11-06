@@ -1,0 +1,3 @@
+shelly:
+    cloud_auth_key: !secret cloud_auth_key
+    cloud_server: !secret cloud_server

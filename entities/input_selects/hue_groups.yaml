@@ -1,0 +1,7 @@
+hue_groups:
+    name: Select Hue Group
+    icon: mdi:group
+    options:
+      - Ingresso
+      - Cucina
+      - Salotto

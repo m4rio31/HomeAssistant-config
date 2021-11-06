@@ -1,0 +1,8 @@
+set_timer_ac_living_room:
+  alias: Set Timer
+  icon: mdi:power
+  sequence:
+  - delay:
+        minutes: '{{ states.input_number.slider_ac_living_room.state | int }}'
+  - service: climate.turn_off
+    entity_id: climate.ac_living_room

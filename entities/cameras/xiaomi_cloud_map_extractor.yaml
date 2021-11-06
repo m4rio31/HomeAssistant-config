@@ -1,0 +1,51 @@
+platform: xiaomi_cloud_map_extractor
+host: !secret ip_roborock
+token: !secret token_roborock
+username: !secret username_camera
+password: !secret password_camera
+name: "Home vacuum map"
+colors:
+  color_map_outside: [10, 122, 255]
+  color_map_wall_v2: [93, 109, 126]
+  color_grey_wall: [93, 109, 126]
+  color_path: [255, 59, 48]
+  color_goto_path: [255, 59, 48]
+  color_predicted_path: [255, 59, 48]
+  color_charger: [0x66, 0xfe, 0xda, 0x7f]
+  color_robo: [242, 242, 247]
+draw:
+  - charger
+  - path
+  - goto_path
+  - predicted_path
+  - vacuum_position
+map_transformation:
+  scale: 5
+  rotate: 270
+  trim:
+    top: 20
+    bottom: 20
+    left: 20
+    right: 14
+sizes:
+  charger_radius: 4
+  vacuum_radius: 7.5
+attributes:
+  - calibration_points
+  - charger
+  - goto
+  - goto_path
+  - goto_predicted_path
+  - image
+  - is_empty
+  - map_name
+  - obstacles
+  - path
+  - room_numbers
+  - rooms
+  - vacuum_position
+  - vacuum_room
+  - walls
+scan_interval:
+  seconds: 2
+auto_update: true

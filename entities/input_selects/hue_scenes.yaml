@@ -1,0 +1,18 @@
+hue_scenes:
+    name: Select Hue Scenes
+    icon: mdi:creation #palette
+    options:
+      - Select
+      - Relax
+      - Lettura
+      - Concentrazione
+      - Energia
+      - Tramonto nella savana
+      - Tramonto tropicale
+      - Aurora boreale
+      - Fioritura primaverile
+      - Cinema
+      - Luce brillante
+      - Luce soffusa
+      - Luce notturna
+    initial: Select

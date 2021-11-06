@@ -1,0 +1,4 @@
+nodered:
+  title: 'NodeRed'
+  url: 'http://192.168.86.62:1880'
+  icon: mdi:sitemap

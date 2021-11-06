@@ -1,0 +1,5 @@
+platform: template
+sensors:
+  vacuum_cleaner_last_cleaned:
+    friendly_name_template: vacuum_cleaner_last_cleaned
+    value_template: "{{relative_time(strptime(as_timestamp(state_attr('vacuum.roborock_vacuum_s5', 'clean_stop'))|timestamp_custom('%Y-%m-%d %H:%M:%S%z'), '%Y-%m-%d %H:%M:%S%z'))}}"

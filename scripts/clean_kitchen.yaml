@@ -1,0 +1,8 @@
+clean_kitchen:
+    alias: Clean Kitchen
+    sequence:
+      - service: vacuum.send_command
+        data:
+          entity_id: vacuum.roborock_vacuum_s5
+          command: app_zoned_clean
+          params: [22300,22000,26000,25050]

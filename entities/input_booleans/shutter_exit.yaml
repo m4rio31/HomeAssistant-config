@@ -1,0 +1,3 @@
+shutter_exit:
+    name: shutter exit
+    initial: off

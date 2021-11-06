@@ -1,0 +1,6 @@
+slider_ac_living_room:
+  name: Timer [min]
+  icon: mdi:av-timer
+  min: 0
+  max: 120
+  step: 10

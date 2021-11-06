@@ -1,0 +1,3 @@
+vacuum_daily_run:
+    name: vacuum daily run
+    initial: off

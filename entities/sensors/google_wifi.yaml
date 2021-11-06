@@ -1,0 +1,4 @@
+platform: google_wifi
+host: 192.168.86.1
+name: GoogleWiFi-GM
+monitored_conditions: [current_version, new_version, last_restart, local_ip, status]
