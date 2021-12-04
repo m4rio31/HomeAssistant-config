@@ -1,0 +1,3 @@
+vacuum_daily_cleaning_automation:
+    name: vacuum daily cleaning automation
+    initial: on

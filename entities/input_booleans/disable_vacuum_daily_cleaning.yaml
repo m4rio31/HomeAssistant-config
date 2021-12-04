@@ -1,3 +1,0 @@
-disable_vacuum_daily_cleaning:
-    name: disable vacuum daily cleaning
-    initial: on
