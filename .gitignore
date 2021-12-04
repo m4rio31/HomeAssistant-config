@@ -13,6 +13,7 @@
 *.js
 *.backup
 *.cs
+*.txt
 
 
 # You can whitelist files/folders with !, these will not be ignored.
