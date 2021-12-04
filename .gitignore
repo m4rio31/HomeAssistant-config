@@ -7,12 +7,10 @@
 *.dh-sha
 *.conf
 
-*.json
 *.pyc
 *.gz
 *.js
 *.backup
-*.cs
 *.txt
 .HA_VERSION
 
