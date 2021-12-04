@@ -1,4 +1,4 @@
 portainer:
   title: 'Portainer'
-  url: 'http://192.168.86.62:9000'
+  url: !secret portainer_url
   icon: mdi:docker
