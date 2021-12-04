@@ -14,6 +14,9 @@ frontend:
     - /hacsfiles/hass-hue-icons/hass-hue-icons.js
     - /hacsfiles/simple-thermostat/simple-thermostat.js
 
+smartir:
+  check_updates: false
+
 # Text to speech
 tts:
   - platform: google_translate
