@@ -332,10 +332,10 @@ SENSOR_TYPES_CFG = {
         ['Illuminance', 'lux', None, DEVICE_CLASS_ILLUMINANCE, None],
     SENSOR_TYPE_TOTAL_CONSUMPTION:
         ['Total consumption', ENERGY_WATT_HOUR,
-         'mdi:flash-circle', DEVICE_CLASS_POWER, None],
+         'mdi:lightning-bolt-circle', DEVICE_CLASS_POWER, None],
     SENSOR_TYPE_TOTAL_RETURNED:
         ['Total returned', ENERGY_WATT_HOUR,
-         'mdi:flash-circle', DEVICE_CLASS_POWER, None],
+         'mdi:lightning-bolt-circle', DEVICE_CLASS_POWER, None],
     SENSOR_TYPE_VOLTAGE:
         ['Voltage', 'V', 'mdi:alpha-v-circle-outline', None, None],
     SENSOR_TYPE_POWER_FACTOR:
