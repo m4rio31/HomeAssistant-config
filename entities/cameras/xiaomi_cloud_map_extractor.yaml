@@ -47,5 +47,5 @@ attributes:
   - vacuum_room
   - walls
 scan_interval:
-  seconds: 2
+  seconds: 10
 auto_update: true
