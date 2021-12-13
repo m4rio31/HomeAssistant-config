@@ -7,7 +7,7 @@ before_install:
 - sudo apt-get install -y libudev-dev
 
 install:
-- pip3 install homeassistant
+- pip3 install homeassistant==2021.12.1
 
 script:
 - hass -c . --script check_config
