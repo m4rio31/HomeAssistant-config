@@ -33,4 +33,4 @@ lovelace:
       type: module
     - url: /hacsfiles/numberbox-card/numberbox-card.js
       type: module
-    
+      
