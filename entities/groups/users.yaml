@@ -1,0 +1,5 @@
+users:
+  name: Users
+  entities:
+    - device_tracker.mario
+    - device_tracker.gaia

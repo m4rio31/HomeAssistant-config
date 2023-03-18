@@ -1,0 +1,6 @@
+# platform: group
+# name: "Users"
+# device_class: at_home
+# entities:
+#   - device_tracker.mario
+#   - device_tracker.gaia

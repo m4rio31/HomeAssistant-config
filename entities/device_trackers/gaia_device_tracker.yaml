@@ -1,0 +1,5 @@
+# platform: ping
+# host: 192.168.86.99
+# name: "Gaia"
+# count: 1
+# scan_interval: 10

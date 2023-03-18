@@ -1,0 +1,6 @@
+platform: ping
+interval_seconds: 10
+consider_home: 20
+hosts:
+  mario: 192.168.86.110
+  gaia: 192.168.86.99

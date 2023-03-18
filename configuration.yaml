@@ -4,6 +4,7 @@ homeassistant:
   latitude: 45.464211
   longitude: 9.191383
   elevation: 140
+  country: IT
   unit_system: metric
   time_zone: Europe/Rome
   packages: !include_dir_named integrations
@@ -22,15 +23,4 @@ tts:
 
 automation: !include automations.yaml
 scene: !include scenes.yaml
-
-lovelace:
-  resources:
-    - url: /local/stack-in-card.js
-      type: module
-    - url: /hacsfiles/lovelace-xiaomi-vacuum-card/xiaomi-vacuum-card.js
-      type: module
-    - url: /hacsfiles/simple-thermostat/simple-thermostat.js
-      type: module
-    - url: /hacsfiles/numberbox-card/numberbox-card.js
-      type: module
       
